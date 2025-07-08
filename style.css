@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;  
+}
+.imagecon{
+    width: 95%;
+    position: relative;
+    margin: auto;
+    margin-left: 50px;
+    
+
+}
+img{
+    width: 100%;
+}
+
+.p0{
+  color: white;
+  background-color: black;
+  position: absolute;
+  padding: 8px;
+  top: 0;
+
+}
+
+.p1{
+  color: white;
+  background-color: black;
+  position: absolute;
+  padding: 8px;
+  top: 0;
+
+}
+
+
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8{
+    width: 23.5%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.para{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.content{
+    margin: auto;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagepro{
+    width: 95%;
+    margin: auto;
+    margin-left: 50px;
+
+}
+.sub1, .sub2, .sub3, .sub4{
+    width: 23.5%;
+    display: inline-block;
+    border: 2px;
+    margin-left: 10px;
+} 
+
+.role{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    width: 100%;
+    font-size: x-large;
+    padding: 10px;
+    border: 0;
+
+}
+
+button:hover {
+    background-color: silver; 
+    transform: scale(1.03);
+}
